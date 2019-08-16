@@ -8,12 +8,6 @@ public class Employee extends Person {
 	private String EmployeeNumber;
 	private double Salary;
 	
-	// constructor
-	public Employee()
-	{
-		
-		
-	}
 	
 
 	public double getSalary() {

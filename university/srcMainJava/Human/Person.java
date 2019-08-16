@@ -14,16 +14,10 @@ public class Person {
 	private String nationality;
 	private String age;
 	
-	ContactDetails contact ;
-	Address address;
+	private ContactDetails contact ;
+	private Address address;
 	
-	//constructor
-	public Person ()
-	{
-		
-		
-	}
-	
+
 	
 	public Address getAddress() {
 		return address;
