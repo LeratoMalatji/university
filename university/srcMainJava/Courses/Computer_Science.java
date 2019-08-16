@@ -1,6 +1,6 @@
 package Courses;
 
-public class Computer_Science {
+public class Computer_Science extends Course{
 	
 	
 	

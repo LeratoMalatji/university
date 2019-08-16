@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class OldMarks {
 	
+	private int MarkId;
 	private String schoolName;
 	private LocalDate dateCompleted;
 	private String levelCompleted;
@@ -12,6 +13,21 @@ public class OldMarks {
 	private char symble;
 	
 	
+	
+	
+	
+	public int getMarkId() {
+		return MarkId;
+	}
+	public void setMarkId(int markId) {
+		MarkId = markId;
+	}
+	public String getLevelCompleted() {
+		return levelCompleted;
+	}
+	public void setLevelCompleted(String levelCompleted) {
+		this.levelCompleted = levelCompleted;
+	}
 	public String getSchoolName() {
 		return schoolName;
 	}

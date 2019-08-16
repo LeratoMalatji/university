@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import Faculties.Faculty;
 import PastMarks.PreviousMarks;
 import contact.Address;
+import grades.OldMarks;
 
 public class Student extends Person  {
 	
@@ -18,8 +19,28 @@ public class Student extends Person  {
 	private String studentNumber;
 	
 	private Faculty faculty;
+	private OldMarks oldMark;
 	
-	
+
+	public Faculty getFaculty() {
+		return faculty;
+	}
+
+
+	public void setFaculty(Faculty faculty) {
+		this.faculty = faculty;
+	}
+
+
+	public OldMarks getOldMark() {
+		return oldMark;
+	}
+
+
+	public void setOldMark(OldMarks oldMark) {
+		this.oldMark = oldMark;
+	}
+
 
 	public String getStatus() {
 		return status;

@@ -1,5 +1,8 @@
 package Courses;
 
-public class Bcom_Law {
+public class Bcom_Law extends Course{
+	
+	
+	
 
 }
