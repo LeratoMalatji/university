@@ -1,5 +1,8 @@
 package Courses;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Bcom_Law extends Course{
 	
 	public Bcom_Law()

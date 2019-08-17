@@ -1,5 +1,8 @@
 package Courses;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Computer_Science extends Course{
 	
 	public Computer_Science()

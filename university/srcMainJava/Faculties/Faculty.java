@@ -1,14 +1,19 @@
 package Faculties;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
+
 import Courses.Course;
 
 /**
  * @author lerato
  *
  */
-
+@Entity
 public abstract class Faculty {
 	
+	@Id
 	private String faculyId;
 	
 	private  String facultyName;

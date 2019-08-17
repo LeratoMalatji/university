@@ -1,7 +1,10 @@
 package Human;
 
+import javax.persistence.MappedSuperclass;
+
 import contact.Address;
 import contact.ContactDetails;
+
 
 public class Person {
 

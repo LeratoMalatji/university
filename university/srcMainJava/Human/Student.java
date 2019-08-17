@@ -5,6 +5,7 @@ import java.time.LocalDate;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import Faculties.Faculty;
 import PastMarks.PreviousMarks;
@@ -12,18 +13,20 @@ import contact.Address;
 import grades.OldMarks;
 
 @Entity
+@Table(name="Student")
 public class Student extends Person  {
 	
 	// instance variables
 	private String DbstudentNumber;
 	private double marks;
-	public PreviousMarks prevMarks ;
+	//public PreviousMarks prevMarks ;
 	private String password;
 	private String status ;
 	
 	@Id
 	private String studentNumber;
 	
+	/**
 	private Faculty faculty;
 	private OldMarks oldMark;
 	
@@ -47,7 +50,7 @@ public class Student extends Person  {
 		this.oldMark = oldMark;
 	}
 
-
+*/
 	public String getStatus() {
 		return status;
 	}

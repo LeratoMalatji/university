@@ -1,9 +1,16 @@
 package Modules;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 import grades.Grade;
 
+@Entity
+@Table(name ="Module")
 public class Module {
 	
+	@Id
 	private String moduleId;
 	private String moduleName;
 	private String status;

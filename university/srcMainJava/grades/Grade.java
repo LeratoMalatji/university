@@ -1,7 +1,14 @@
 package grades;
 
+import javax.persistence.Embeddable;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Grade {
 	
+	@Id
+	int mID;
 	private double mark;
 	private double percentage;
 	private char simple;

@@ -1,5 +1,8 @@
 package Faculties;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Bcom extends Faculty{
 
 	private String description;

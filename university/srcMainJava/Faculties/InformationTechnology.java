@@ -1,5 +1,8 @@
 package Faculties;
 
+import javax.persistence.Entity;
+
+@Entity
 public class InformationTechnology extends Faculty {
 
 	public String description;

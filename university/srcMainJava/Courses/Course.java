@@ -1,9 +1,14 @@
 package Courses;
 
+import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
+
 import Modules.Module;
 
+@MappedSuperclass
 public abstract class Course {
 
+	@Id
 	private String courseId;
 	private String CourseName;
 	private double courseCost;
