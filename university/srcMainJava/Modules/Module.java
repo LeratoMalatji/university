@@ -10,6 +10,20 @@ public class Module {
 	private Grade grades;
 	private int semester;
 	
+	public Module()
+	{
+		
+		
+	}
+	
+	public Module(String moduleId,String moduleName, int semester)
+	{
+		this.moduleId=moduleId;
+		this.moduleName=moduleName;
+		this.semester=semester;
+		
+	}
+	
 	
 	
 	public int getSemester() {

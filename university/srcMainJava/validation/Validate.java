@@ -54,7 +54,7 @@ public class Validate<T> {
 							
 							System.out.println("your are login to account");
 							
-						student.setDbID(rset.getInt("studentId"));
+						
 						}else
 						{
 							

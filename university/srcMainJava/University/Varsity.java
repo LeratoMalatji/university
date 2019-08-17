@@ -12,6 +12,22 @@ public abstract class Varsity {
 	private ContactDetails contact;
 	
 	private Student student;
+	
+	public Varsity()
+	{
+		address =null;
+		contact=null;
+		CompusId=null;
+		CompusName=null;
+		
+	}
+	
+	public Varsity(String CompusId,String CompusName)
+	{
+		this.CompusId=CompusId;
+		this.CompusName=CompusName;
+		
+	}
 
 	public String getCompusId() {
 		return CompusId;

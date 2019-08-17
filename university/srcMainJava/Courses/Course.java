@@ -8,8 +8,22 @@ public abstract class Course {
 	private String CourseName;
 	private double courseCost;
 	private double Points;
-	
 	private Module module;
+	
+	public Course()
+	{
+		
+		
+	}
+	
+	public Course(String courseId,String CourseName,double Points)
+	{
+		
+		this.courseId=courseId;
+		this.CourseName=CourseName;
+		this.Points=Points;
+		
+	}
 	
 	
 	public Module getModule() {

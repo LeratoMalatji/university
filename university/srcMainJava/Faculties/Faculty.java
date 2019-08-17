@@ -17,6 +17,15 @@ public abstract class Faculty {
 	
 	private Course courses;
 	
+	
+	public Faculty(String faculyId,String facultyName)
+	{
+		this.faculyId=faculyId;
+		this.facultyName=facultyName;
+		
+	}
+	
+	
 	public Course getCourses() {
 		return courses;
 	}

@@ -3,11 +3,15 @@ package Human;
 import java.io.Serializable;
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 import Faculties.Faculty;
 import PastMarks.PreviousMarks;
 import contact.Address;
 import grades.OldMarks;
 
+@Entity
 public class Student extends Person  {
 	
 	// instance variables
@@ -16,6 +20,8 @@ public class Student extends Person  {
 	public PreviousMarks prevMarks ;
 	private String password;
 	private String status ;
+	
+	@Id
 	private String studentNumber;
 	
 	private Faculty faculty;
